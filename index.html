@@ -41,13 +41,13 @@
             </div>
         </div>
     </header>
-    <main class="sm:container mx-auto">
+    <main class="container mx-auto p-5">
         <section class="text-center mt-36 mb-5">
             <h1 class="font-semibold text-5xl mb-5">Our Featured Products</h1>
             <p class="mb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, aspernatur natus. Quibusdam
                 saepe facilis enim obcaecati autem, minima architecto odit provident veniam voluptatibus ab optio id,
                 possimus sunt labore maiores!</p>
-            <div class="grid grid-cols-s sm:grid-cols-4 gap-2 ">
+            <div class="grid grid-cols-s sm:grid-cols-4 gap-2 justify-center">
                 <div class="flex flex-col items-center bg-gradient-to-b from-[#F4F4F4] p-3 rounded-lg">
                     <img src="images/tea-1.png" alt="">
                     <h2 class="text-2xl mt-2">Milk Tea</h2>
@@ -64,46 +64,185 @@
                     <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, ab.</p>
                 </div>
                 <div class="flex flex-col items-center bg-gradient-to-b from-[#F4F4F4] p-3 rounded-lg">
-                    <img src="images/tea-4.png" alt="">
+                    <img class="" src="images/tea-4.png" alt="">
                     <h2 class="text-xl font-semibold mt-2">Green Tea</h2>
                     <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, ab.</p>
                 </div>
             </div>
         </section>
-        <section >
-            <div class="grid grid-cols-2 gap-5">
+        <section>
+            <div class="flex  flex-col sm:flex-row justify-center items-center gap-x-12">
                 <div class="grid grid-cols-2 grid-rows-3 gap-5">
-                    <div class="bg-slate-500 rounded-lg w-auto">
+                    <div class="bg-gradient-to-r from-[#FF0000] from-0% to-[#FF8938] to-100% rounded-lg p-5 opacity-10">
                         <img class="" src="">
                     </div>
-                    <div class="bg-slate-600 row-span-2 rounded-lg w-auto">
+                    <div class="bg-orange-50 row-span-2 rounded-lg flex justify-center items-center p-5 ">
                         <img class="" src="images/fresh-1.png">
                     </div>
-                    <div class="bg-gray-800 row-span-2 rounded-lg w-auto">
+                    <div class="bg-slate-200 row-span-2 rounded-lg flex justify-center items-center p-5">
                         <img class="" src="images/fresh-2.png">
                     </div>
 
-                    <div class="bg-gray-800 rounded-lg w-auto">
+                    <div
+                        class="bg-gray-800 rounded-lg p-5 bg-gradient-to-r from-[#D9D9D9] from-0% to-rgb-rgba(255, 255, 255, 0) to-100% opacity-10">
                         <img class="" src="">
                     </div>
                 </div>
-                <div class="">
-                    <h1>Great Tea, Freshly Presented</h1>
+                <div class="sm:w-1/2 mt-4 sm:mt-0">
+                    <h1 class="font-semibold text-2xl mb-4">Great Tea, Freshly Presented</h1>
                     <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions .
                         It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been
                         deeply appreciated by its custoers because of good words of mouth and unique customized service
                         orginated from Taiwan.</p>
-                    <h3>Unique Taste</h3>
+                    <h3 class="font-semibold text-2xl mb-4 mt-2">Unique Taste</h3>
                     <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
                     <h3>Premium Quality</h3>
                     <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
                 </div>
             </div>
         </section>
+        <section class="bg-gradient-to-r from-[#FF0000] from-0% to-[#FF8938] to-100%  rounded-lg" id="">
+            <div class=" grid grid-cols-1 sm:grid-cols-2 justify-evenly items-center p-14 mt-11 gap-x-32">
+                <div class="">
+                    <h1 class="text-3xl font-semibold mb-4">Meet Our Super Clients</h1>
+                    <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora deserunt aperiam
+                        nesciunt quibusdam, nisi beatae quos similique voluptas molestias saepe necessitatibus,
+                        praesentium rerum iste laudantium, molestiae expedita. Cumque, amet ipsam.</p>
+                    <button class="bg-white text-orange-400 text-xl rounded-md p-4 sm:mb-0 mb-14 mt-4 ">Show
+                        All</button>
+                </div>
+                <div class="">
+                    <div class="bg-white p-8 rounded-lg sm:w-2/3  hidden sm:block w-auto opacity-30">
+                        <img class="-mt-14 -ms-14 absolute  " src="images/client.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam pariatur sunt
+                            voluptate esse magni.</p>
+                        <h3>Ilham Yuda</h3>
+                        <p>Businessman</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg d sm:w-2/3 hidden sm:block mt-14 opacity-30">
+                        <img class="-mt-14 -ms-14 absolute  " src="images/client.png" alt="">
+                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam pariatur
+                            sunt voluptate esse magni.</p>
+                        <h3>Ilham Yuda</h3>
+                        <p>Businessman</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg sm:w-1/5 sm:h-1/5 sm:block sm:absolute sm:-mt-80 sm:-ms-14 ">
+                        <img class="-mt-14 -ms-14 absolute  " src="images/client.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam pariatur sunt
+                            voluptate esse magni.</p>
+                        <h3 class="text-2xl mt-10 font-semibold">Ilham Yuda</h3>
+                        <p class="text-xs mt-2">Businessman</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="">
+                <div class="text-center mt-20">
+                    <h1 class="text-5xl font-semibold mb-5">News & Events</h1>
+                    <p class="mb-8 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti
+                        distinctio unde soluta
+                        quaerat placeat dolorem nostrum illum provident repellat perferendis adipisci iusto modi fugiat
+                        facere, ut necessitatibus ipsum qui deleniti maiores dolor, quas nisi, quia repudiandae?
+                        Laborum, saepe quam?</p>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-between items-center gap-5 ">
+                    <div class="p-6 rounded-lg border border-black sm:w-1/4">
+                        <img class="mb-5" src="images/news-1.png" alt="">
+                        <p class="">Feb 05, 2027</p>
+                        <h2 class="text-xl font-semibold mt-5 mb-5">Collecting 8 points for discount</h2>
+                        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, corporis?</p>
+                        <p class="font-semibold mt-5">Learn More</p>
+                    </div>
+                    <div class="p-6 rounded-lg border border-black sm:w-1/4">
+                        <img class="mb-5" src="images/news-2.png" alt="">
+                        <p class="">Feb 05, 2027</p>
+                        <h2 class="text-xl font-semibold mt-5 mb-5">Collecting 8 points for discount</h2>
+                        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, corporis?</p>
+                        <p class="font-semibold mt-5">Learn More</p>
+                    </div>
+                    <div class="p-6 rounded-lg border border-black sm:w-1/4">
+                        <img class="mb-5" src="images/news-3.png" alt="">
+                        <p class="">Feb 05, 2027</p>
+                        <h2 class="text-xl font-semibold mt-5 mb-5">Collecting 8 points for discount</h2>
+                        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, corporis?</p>
+                        <p class="font-semibold mt-5">Learn More</p>
+                    </div>
+                    <div class="p-6 rounded-lg border border-black sm:w-1/4">
+                        <img class="mb-5" src="images/news-1.png" alt="">
+                        <p class="">Feb 05, 2027</p>
+                        <h2 class="text-xl font-semibold mt-5 mb-5">Collecting 8 points for discount</h2>
+                        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, corporis?</p>
+                        <p class="font-semibold mt-5">Learn More</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer class="bg-yellow-100 py-11 p-5 ">
+        <div class="sm:container mx-auto">
+            <div class="  flex justify-between items-center  ">
+                <img src="images/cup.png" alt="">
+                <div class="flex items-center gap-x-8">
+                    <p class="sm:block hidden">Ready to get strated?</p>
+                    <button
+                        class="p-5 font-medium text-white bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg ">Get
+                        strated
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="grid sm:grid-cols-2 grid-cols-1 sm:gap-96 gap-9 mt-14 ">
+                <div class="flex  justify-between">
+                    <div class="">
+                        <h2 class="font-semibold text-xl">Quick Links</h2>
+                        <p>Home</p>
+                        <p>About US</p>
+                        <p>Insurence</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div class="">
+                        <h2 class="font-semibold text-xl">Our Service</h2>
+                        <p>Life Insurence</p>
+                        <p>Car Insurence</p>
+                        <p>Health Insurence</p>
+                        <p>House Insurence</p>
+                    </div>
+                </div>
+                <div class="sm:flex justify-between">
+                    <div class="">
+                        <h2 class="font-semibold text-xl">Help</h2>
+                        <p>FAQs</p>
+                        <p>Contact US</p>
+                    </div>
+    
+                    <div class=" sm:mt-0 mt-9">
+                        <h2 class="font-semibold text-2xl">Subscribe to our newsletter</h2>
+                        <div class="flex mb-5 mt-5">
+                            <input type="email" placeholder="Enter Your Mail Address"
+                                class="border-b-2 border-black bg-yellow-100">
+                            <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    class="w-8 h-8 bg-gradient-to-r from-[#FF0000] from-0% to-[#FF8938] to-100% rounded-full p-1 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="flex mt-5 gap-x-3">
+                            <img src="icons/facebook.png" alt=""><img src="icons/twitter.png" alt=""><img
+                                src="icons/insta.png" alt="">
+    
+                        </div>
+                    </div>
+                </div>
 
+
+            </div>
+            <div class="text-center mt-16">© 2023 TamimMahmud Inc- All rights reserved.</div>
+        </div>
     </footer>
 </body>
 
